@@ -1,0 +1,88 @@
+<head>
+<title>CSS Example</title>
+<style type="text/css">
+
+.title {
+    background-color: #FFFFFF;
+}
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.retweet {
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+}
+
+div, p {
+	margin:0;
+	padding:0;
+}
+.container {
+	margin:0 auto;
+	border:0;
+	padding:32px;
+	text-align:center
+}
+.hoverme:hover .hasBackgroundColor {
+	background-color:#333 !important;
+}
+
+.story{
+display:block;
+/*cursor: pointer;*/
+width: 700px; /* container width*/
+height: 80px; /* Add container height here if desired */
+background-color: #FFFFFF;
+border: 2px outset #CCCCCC;
+padding: 5px;
+margin: 10px;
+position: relative;
+}
+
+.story a:link {
+color: #000000;
+}
+.story a:visited {
+color: #000000;
+}
+.story a:hover {
+color: #666666;
+}
+
+.headline {
+font-family: Georgia, Times New Roman, sans-serif;
+font-size: 24px;
+text-decoration: none;
+}
+
+.retweet {
+position: absolute;
+right: 10px;
+bottom: 5px;
+}
+
+.via {
+position:absolute;
+left: 10px;
+bottom:5px;
+}
+
+#footer {
+position: fixed;
+right: 10px;
+bottom:10px;
+}
+#footer a:link {
+color: #000000;
+}
+#footer a:visited {
+color: #000000;
+}
+
+</style>
+</head>

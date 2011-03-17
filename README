@@ -14,6 +14,7 @@ and an option to retweet the story. When the user clicks on a headline,
 it opens a lightbox with an iframe in it, showing the story.
 
 Issues:
+-VERY VERY SLOW
 -Links posted to Twitter are not always news stories (images, videos, etc.)
 -Proper headlines aren't found on many sites
 -NYTimes doesn't allow their content in an iframe

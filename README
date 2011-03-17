@@ -1,0 +1,35 @@
+Kevin Schaul
+kevin.schaul@gmail.com
+actualinnovation.com/twitnewsbrief
+
+The goal is to take the news out of your Twitter timeline and make it easy
+to read. It's a personalized news reader displaying news that the users
+you follow think is interesting.
+
+After logging through Twitter (using Abraham's OAuth library), index.php requests the user's timeline. It looks for any links in the timeline and
+if it finds them, it requests the page source of the link. It tries to find
+the headline of the story using different meta tags. If it can't find it,
+it will use the page's title. We display the headline, user who posted it,
+and an option to retweet the story. When the user clicks on a headline,
+it opens a lightbox with an iframe in it, showing the story.
+
+Issues:
+-Links posted to Twitter are not always news stories (images, videos, etc.)
+-Proper headlines aren't found on many sites
+-NYTimes doesn't allow their content in an iframe
+
+Improvements:
+-Add option to search Twitter instead of pulling from timeline
+-Button to how original tweet
+-Better layout
+-Pull in rss feeds in addition to Twitter
+
+
+
+*** Twit News Brief uses Abraham's OAuth library to handle the Twitter API ***
+
+Abraham Williams | abraham@poseurte.ch | http://abrah.am | @abraham
+The first PHP library for working with Twitter's OAuth API.
+Documentation: http://wiki.github.com/abraham/twitteroauth/documentation 
+Source: http://github.com/abraham/twitteroauth
+Twitter: http://apiwiki.twitter.com
